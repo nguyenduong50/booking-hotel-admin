@@ -1,0 +1,8 @@
+header{
+    border-bottom: 1px solid #d1cccc7e;
+}
+
+.title-admin{
+    color: var(--primary-color);
+    text-align: center;
+}

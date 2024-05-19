@@ -1,0 +1,30 @@
+.statistical{
+    width: 24% !important;
+    box-shadow: 0 8px 8px 0 rgba(103, 151, 255, .11), 0 12px 18px 0 rgba(103, 151, 255, .11);
+    padding: 15px 10px;
+}
+
+.statistical span{
+    padding: 4px 7px;
+    border-radius: 4px;
+}
+
+#icon-user{
+    color: rgba(238, 23, 23);
+    background-color: rgba(243, 69, 69, 0.3);
+}
+
+#icon-order{
+    color: rgb(248, 244, 8);
+    background-color: rgba(239, 245, 182, 0.3);
+}
+
+#icon-earning{
+    color: rgb(16, 248, 8);
+    background-color: rgba(177, 245, 164, 0.5);
+}
+
+#icon-balance{
+    color: rgb(172, 8, 248);
+    background-color: rgba(222, 164, 245, 0.5);
+}

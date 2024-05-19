@@ -1,0 +1,56 @@
+.form-add-new-room{
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(158, 158, 158, 0.2), 0 2px 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+.form-add-new-room input{
+    border: none;
+    border-bottom: 1px solid #6b696965;
+    outline: none;
+    padding: 5px 5px;
+    font-size: 13px;
+}
+
+.form-add-new-room input::placeholder{
+    font-size: 13px;
+}
+
+.form-add-new-room select{
+    outline: none;
+}
+
+.form-add-new-room textarea{
+    outline: none;
+}
+
+.btn-send{
+    background-color: var(--secondary-color);
+    color: #fff;
+    border: none;
+    padding: 8px 40px;
+}
+
+.btn-send:disabled{
+    background-color: rgb(1, 49, 49);
+    cursor: not-allowed;
+}
+
+input.error{
+    border-bottom: 1px solid red;
+}
+
+input.error::placeholder{
+    color: red;
+}
+
+label.error{
+    color: red;
+}
+
+.form-add-new-room textarea{
+    font-size: 13px;
+}
+
+textarea.error{
+    border-color: red;
+}

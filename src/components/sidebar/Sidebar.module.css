@@ -1,0 +1,32 @@
+aside{
+    height: 95vh;
+}
+
+.menu-title{
+    font-size: 11px;
+    color: #6e6c6cc0;
+    margin-top: 12px;
+}
+
+.menu-link{
+    font-size: 16px;
+}
+
+.menu-link a{
+    display: block;
+    padding: 8px;
+}
+
+.menu-link a.active{
+    background-color: var(--primary-color-hover);
+}
+
+.menu-link a i,
+Form i{
+    color: var(--primary-color);
+}
+
+.btn-logout{
+    border: none;
+    background-color: transparent;
+}
